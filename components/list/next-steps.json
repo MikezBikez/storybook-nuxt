@@ -1,0 +1,798 @@
+{
+  "preContractBuying": [
+    {
+      "title": "1. Upload contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "contract",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "2. Assignment of conveyancer",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "conveyancer-assigned",
+      "responsible": "Settle Easy Admin"
+    },
+    {
+      "title": "3. Review contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "roc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "4. Upload signed contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "sct",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "5. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-contract",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preContractSelling": [
+    {
+      "title": "1. Assignment of conveyancer",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "conveyancer-assigned",
+      "responsible": "Settle Easy Admin"
+    },
+    {
+      "title": "2. Initial documents",
+      "class": "group-title",
+      "filter": "initial-documents",
+      "responsible": ""
+    },
+    {
+      "title": "Upload engagement letter",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "egl",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload costs disclosure",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "cdc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Complete client authorisation form",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "scaf",
+      "responsible": "Seller"
+    },
+    {
+      "title": "Complete seller's questionnaire",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "fosq",
+      "responsible": "Seller"
+    },
+    {
+      "title": "3. Drafting contract of sale and section 32",
+      "class": "group-title",
+      "filter": "contract-drafting",
+      "responsible": ""
+    },
+    {
+      "title": "Upload draft contract of sale",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "dfc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload draft section 32",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "s32",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Approve draft contract of sale and draft section 32",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "approve-draft-contract-draft-section-32",
+      "responsible": "Seller"
+    },
+    {
+      "title": "Upload signed section 32",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "ss32",
+      "responsible": "Seller"
+    },
+    {
+      "title": "Upload final contract of sale",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "fnc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "4. Upload signed contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "sct",
+      "responsible": "Seller"
+    },
+    {
+      "title": "5. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-contract",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preContractBOffThePlanCR": [
+    {
+      "title": "1. Upload contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "contract",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "2. Assignment of conveyancer",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "conveyancer-assigned",
+      "responsible": "Settle Easy Admin"
+    },
+    {
+      "title": "3. Review contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "roc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "4. Upload signed contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "sct",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "5. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-contract",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preContractBOffThePlanSC": [
+    {
+      "title": "1. Upload signed contract of sale",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "sct",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "2. Assignment of conveyancer",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "conveyancer-assigned",
+      "responsible": "Settle Easy Admin"
+    },
+    {
+      "title": "3. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-contract",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "postContractBuying": [
+    {
+      "title": "1. Initial documents",
+      "class": "group-title",
+      "filter": "conveyancer-assigned",
+      "responsible": ""
+    },
+    {
+      "title": "Upload engagement letter",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "egl",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload costs disclosure",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "cdc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Complete client authorisation form",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "scaf",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "Complete buyer's questionnaire",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "fobq",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "Send initial documents reminder",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "initial-documents-reminder",
+      "notificationCode": "IDR",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "2. Review completed initial documents",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "review-completed-documents",
+      "notificationCode": "RCD",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "3. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to pre-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "postContractSelling": [
+    {
+      "title": "1. Deposit release (if required)",
+      "class": "group-title",
+      "filter": "deposit-release",
+      "responsible": ""
+    },
+    {
+      "title": "Send section 27 alert to seller",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "deposit-release-notification",
+      "notificationCode": "DPR",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload blank section 27",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "s27",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload signed section 27",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "ss27",
+      "responsible": "Seller"
+    },
+    {
+      "title": "2. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to pre-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "postContractBOffThePlan": [
+    {
+      "title": "1. Initial documents",
+      "class": "group-title",
+      "filter": "initial-documents",
+      "responsible": ""
+    },
+    {
+      "title": "Upload engagement letter",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "egl",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Complete client authorisation form",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "scaf",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "Upload costs disclosure",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "cdc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send initial documents reminder",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "initial-documents-reminder",
+      "notificationCode": "IDR",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "2. Review initial documents",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "review-completed-documents",
+      "notificationCode": "RCD",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "3. Insert plan registration date",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "registered-plan",
+      "notificationCode": "RPL",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "4. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to pre-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preSettlementBuying": [
+    {
+      "title": "1. Settlement information",
+      "class": "group-title",
+      "filter": "settlement-information",
+      "responsible": ""
+    },
+    {
+      "title": "Set settlement date and time",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "settlement-date-time",
+      "notificationCode": "SDT",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send buyer alert",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-customer-alert",
+      "notificationCode": "PSRB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of adjustments and settlement statement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "soass",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of costs",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "stc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "tiv",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "2. Final inspection",
+      "class": "group-title",
+      "filter": "final-inspection",
+      "responsible": ""
+    },
+    {
+      "title": "Send final inspection reminder to agent",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "final-inspection-reminder-agent",
+      "notificationCode": "FRA",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send buyer alert: SRO email",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "notification-sro-email",
+      "notificationCode": "SROB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send settlement reminder to agent",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "settlement-reminder-agent",
+      "notificationCode": "SRA",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send final inspection reminder to buyer",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "final-inspection-reminder-buyer",
+      "notificationCode": "FRB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "3. Payment of tax invoice (if required)",
+      "class": "group-title",
+      "filter": "payment-tax-invoice",
+      "responsible": ""
+    },
+    {
+      "title": "Send Settle Easy tax invoice to buyer",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-tax-invoice-buyer",
+      "notificationCode": "TIB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Payment of Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "payment-completed",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "4. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preSettlementSelling": [
+    {
+      "title": "1. Settlement information",
+      "class": "group-title",
+      "filter": "settlement-information",
+      "responsible": ""
+    },
+    {
+      "title": "Set settlement date and time",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "settlement-date-time",
+      "notificationCode": "SDT",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send seller alert",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-customer-alert",
+      "notificationCode": "PSRS",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of adjustments and settlement statement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "soass",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of costs",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "stc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload account sales",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "acs",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "tiv",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "2. Final inspection",
+      "class": "group-title",
+      "filter": "final-inspection",
+      "responsible": ""
+    },
+    {
+      "title": "Send seller alert: SRO email",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "notification-sro-email",
+      "notificationCode": "FRS",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "3. Payment of tax invoice (if required)",
+      "class": "group-title",
+      "filter": "payment-tax-invoice",
+      "responsible": ""
+    },
+    {
+      "title": "Send Settle Easy tax invoice to seller",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-tax-invoice-seller",
+      "notificationCode": "TIS",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Payment of Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "payment-completed",
+      "responsible": "Seller"
+    },
+    {
+      "title": "4. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "preSettlementBOffThePlan": [
+    {
+      "title": "1. Settlement information",
+      "class": "group-title",
+      "filter": "settlement-information",
+      "responsible": ""
+    },
+    {
+      "title": "Set settlement date and time",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "settlement-date-time",
+      "notificationCode": "SDT",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send buyer alert",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-customer-alert",
+      "notificationCode": "PSRB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Complete buyer's questionnaire",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "fobq",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "Upload registered plan",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "rpl",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload certificate of occupancy",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "coo",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of adjustments and settlement statement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "soass",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload statement of costs",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "stc",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Upload Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "tiv",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "2. Final inspection",
+      "class": "group-title",
+      "filter": "final-inspection",
+      "responsible": ""
+    },
+    {
+      "title": "Send final inspection reminder to agent",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "final-inspection-reminder-agent",
+      "notificationCode": "FRA",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send buyer alert: SRO email",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "notification-sro-email",
+      "notificationCode": "SROB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send settlement reminder to agent",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "settlement-reminder-agent",
+      "notificationCode": "SRA",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Send final inspection reminder to buyer",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "final-inspection-reminder-buyer",
+      "notificationCode": "FRB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "3. Payment of tax invoice (if required)",
+      "class": "group-title",
+      "filter": "payment-tax-invoice",
+      "responsible": ""
+    },
+    {
+      "title": "Send Settle Easy tax invoice to buyer",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "send-tax-invoice-buyer",
+      "notificationCode": "TIB",
+      "responsible": "Conveyancer"
+    },
+    {
+      "title": "Payment of Settle Easy tax invoice",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "payment-completed",
+      "responsible": "Buyer"
+    },
+    {
+      "title": "4. Move to next stage",
+      "class": "group-title",
+      "filter": "move-to-next-stage-step",
+      "responsible": ""
+    },
+    {
+      "title": "Move to post-settlement",
+      "class": "tabbed",
+      "subClass": "mobile-bold",
+      "filter": "move-to-next-stage",
+      "responsible": "Conveyancer"
+    }
+  ],
+  "postSettlementBuying": [
+    {
+      "title": "1. Settlement completed",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "settlement-complete",
+      "responsible": ""
+    },
+    {
+      "title": "2. Send customer and agent review",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "send-customer-agent-review",
+      "responsible": ""
+    }
+  ],
+  "postSettlementSelling": [
+    {
+      "title": "1. Settlement completed",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "settlement-complete",
+      "responsible": ""
+    },
+    {
+      "title": "2. Send customer and agent review",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "send-customer-agent-review",
+      "responsible": ""
+    }
+  ],
+  "postSettlementBOffThePlan": [
+    {
+      "title": "1. Settlement completed",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "settlement-complete",
+      "responsible": ""
+    },
+    {
+      "title": "2. Send customer and agent review",
+      "class": "tabbed-title",
+      "subClass": "all-bold",
+      "filter": "send-customer-agent-review",
+      "responsible": ""
+    }
+  ]
+}
