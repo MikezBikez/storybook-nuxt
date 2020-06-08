@@ -27,7 +27,7 @@ const TRANS_STATUS = {
   OTPSIGNEDCONTRACT: "SC",
   OTPCONTRACTREVIEW: "CR",
   ARCHIVED: "ARV",
-  CANCEL: "CNL"
+  CANCEL: "CNL",
 };
 
 const CONSTANTS = {
@@ -42,19 +42,19 @@ const CONSTANTS = {
     OFFICEMANAGER: "BA",
     SUPPORTOFFICER: "SO",
     DIRECTOR: "DIR",
-    CHIEFPRACTICEMANAGER: "CPM"
+    CHIEFPRACTICEMANAGER: "CPM",
   },
   FORMSTATUS: {
     SAVE_AND_RETURN_LATER_CUSTOMER: "SLC",
     SAVE_AND_SUBMIT_CUSTOMER: "SSC",
     SAVE_AND_RETURN_LATER_ADMIN: "SLA",
-    SAVE_AND_SUBMIT_ADMIN: "SSA"
+    SAVE_AND_SUBMIT_ADMIN: "SSA",
   },
   // USER TYPES
   USER_TYPE: {
     BUYER: "B",
     SELLER: "S",
-    BUYER_OFF_THE_PLAN: "BOTP"
+    BUYER_OFF_THE_PLAN: "BOTP",
   },
   // USER TYPES
   TRANSACTION_TYPE_DESCRIPTION: {
@@ -62,14 +62,14 @@ const CONSTANTS = {
     SELLING: "Selling",
     BUYINGOFFTHEPPLAN: "Buying - Off the plan",
     SIGNEDCONTRACT: "Signed contract",
-    CONTRACTREVIEW: "Contract review"
+    CONTRACTREVIEW: "Contract review",
   },
   // TRANSACTION STATUS
   TRANS_STATUS: TRANS_STATUS,
   // TRANSACTION STEPS
   TRANS_STEPS: {
     PND: "Document Finalization",
-    RFS: "Settlement Scheduled"
+    RFS: "Settlement Scheduled",
   },
   // stages
   TRANS_SETUP: [TRANS_STATUS.SETUP],
@@ -84,44 +84,44 @@ const CONSTANTS = {
     TRANS_STATUS.CONTRACTREVIEW,
     TRANS_STATUS.DOCUMENTPREPARATION,
     TRANS_STATUS.UNCONDITIONALCONTRACT,
-    TRANS_STATUS.DOCUMENTFINALIZATION
+    TRANS_STATUS.DOCUMENTFINALIZATION,
   ],
   // stages filter
   TRANS_NEW_PROPERTIES_STATUSES: [
     TRANS_STATUS.SETUP,
     TRANS_STATUS.LISTED,
-    TRANS_STATUS.SOLD
+    TRANS_STATUS.SOLD,
   ],
   TRANS_IN_SETTLEMENT_STATUSES: [
     TRANS_STATUS.SETTLING,
     TRANS_STATUS.SOLD,
     TRANS_STATUS.BOUGHT,
-    TRANS_STATUS.LISTED
+    TRANS_STATUS.LISTED,
   ],
   TRANS_SETTLEMENT_STATUSES: [TRANS_STATUS.SETTLED],
   // steps filter for update modal
   TRANS_STATUS_CRV: [TRANS_STATUS.CONTRACTREVIEW],
   TRANS_STATUS_DOP: [
     TRANS_STATUS.CONTRACTREVIEW,
-    TRANS_STATUS.DOCUMENTPREPARATION
+    TRANS_STATUS.DOCUMENTPREPARATION,
   ],
   TRANS_STATUS_UNC: [
     TRANS_STATUS.CONTRACTREVIEW,
     TRANS_STATUS.DOCUMENTPREPARATION,
-    TRANS_STATUS.UNCONDITIONALCONTRACT
+    TRANS_STATUS.UNCONDITIONALCONTRACT,
   ],
   TRANS_STATUS_DOF: [
     TRANS_STATUS.CONTRACTREVIEW,
     TRANS_STATUS.DOCUMENTPREPARATION,
     TRANS_STATUS.UNCONDITIONALCONTRACT,
-    TRANS_STATUS.DOCUMENTFINALIZATION
+    TRANS_STATUS.DOCUMENTFINALIZATION,
   ],
   TRANS_STATUS_STD: [
     TRANS_STATUS.CONTRACTREVIEW,
     TRANS_STATUS.DOCUMENTPREPARATION,
     TRANS_STATUS.UNCONDITIONALCONTRACT,
     TRANS_STATUS.DOCUMENTFINALIZATION,
-    TRANS_STATUS.SETTLED
+    TRANS_STATUS.SETTLED,
   ],
   // ADMIN FILTER
   TRANS_ADM_NEW_STATUSES: [TRANS_STATUS.PRECONTRACT],
@@ -239,7 +239,7 @@ const CONSTANTS = {
     CHIEFPRACTICEMANAGER_APPROVE_DOCUMENT: "CPMAD",
     DELETE_PENDING_CUSTOMER: "DPC",
     DELETE_PENDING_AGENT: "DPA",
-    INDEPENDENT_CONTRACTOR_AGREEMENT: "ICA"
+    INDEPENDENT_CONTRACTOR_AGREEMENT: "ICA",
   },
   USER_ROLE_DESC: {
     ADMIN: "Admin",
@@ -253,7 +253,7 @@ const CONSTANTS = {
     SALES_ADMIN: "Sales admin",
     DIRECTOR: "Director",
     AGENT: "Agent",
-    CHIEF_PRACTICE_MANAGER: "Chief Practice Manager"
+    CHIEF_PRACTICE_MANAGER: "Chief Practice Manager",
   },
   // USER URL
   USER_ROLE_URL: {
@@ -264,15 +264,15 @@ const CONSTANTS = {
     CHANNELPARTNER: "/partner-dashboard",
     OFFICEMANAGER: "/office-manager-dashboard",
     DIRECTOR: "/director-dashboard",
-    CHIEFPRACTICEMANAGER: "/cpm-dashboard"
+    CHIEFPRACTICEMANAGER: "/cpm-dashboard",
   },
   NOTE_TYPE: {
     THREAD: "THREAD",
-    NOTE: "NOTE"
+    NOTE: "NOTE",
   },
   PAYMENT: {
     PUBLISHABLE_APIKEY:
-      "T12367_PUB_qpxkeg5w9gb8kh7s7hiwjx9v4ws2i5e9txetvaqxa6jsngi5y4uf3emfaat7"
+      "T12367_PUB_qpxkeg5w9gb8kh7s7hiwjx9v4ws2i5e9txetvaqxa6jsngi5y4uf3emfaat7",
   },
   SHOW_AGENT_BOX: true,
   // DOCUMENT_TYPES
@@ -280,115 +280,115 @@ const CONSTANTS = {
     RESUME: 1,
     LICENSE: 2,
     POLICY: 3,
-    OFFER: 4
+    OFFER: 4,
   },
 
   DOCUMENT_STATUSES: {
     APPROVED: {
       code: "Approved",
-      value: 0
+      value: 0,
     },
     PENDING: {
       code: "Pending",
-      value: 1
+      value: 1,
     },
     DECLINE: {
       code: "Decline",
-      value: 2
-    }
+      value: 2,
+    },
   },
 
   TRANSACTION_DOCUMENTS: {
     CONTRACT: {
       code: "contract",
-      value: "Contract"
+      value: "Contract",
     },
     REVIEWOFCONTRACT: {
       code: "roc",
-      value: "Review of contract"
+      value: "Review of contract",
     },
     DRAFTCONTRACT: {
       code: "dfc",
-      value: "Draft contract"
+      value: "Draft contract",
     },
     SECTION32: {
       code: "s32",
-      value: "Section 32"
+      value: "Section 32",
     },
     SIGNEDSECTION32: {
       code: "ss32",
-      value: "Signed Section 32"
+      value: "Signed Section 32",
     },
     ENGAGEMENTLETTER: {
       code: "egl",
-      value: "Engagement letter"
+      value: "Engagement letter",
     },
     COSTSDISCLOSURE: {
       code: "cdc",
-      value: "Costs disclosure"
+      value: "Costs disclosure",
     },
     FINALCONTRACT: {
       code: "fnc",
-      value: "Final contract"
+      value: "Final contract",
     },
     SIGNEDCONTRACT: {
       code: "sct",
-      value: "Signed contract"
+      value: "Signed contract",
     },
     SIGNEDAUTHORISATIONFORM: {
       code: "scaf",
-      value: `Signed client's authorisation form`
+      value: `Signed client's authorisation form`,
     },
     SELLERSQUESTIONNAIRE: {
       code: "fosq",
-      value: `Filled out seller's questionnaire`
+      value: `Filled out seller's questionnaire`,
     },
     BUYERSQUESTIONNAIRE: {
       code: "fobq",
-      value: `Filled out buyer's questionnaire`
+      value: `Filled out buyer's questionnaire`,
     },
     S27DRS: {
       code: "s27",
-      value: `S27 deposit release statement`
+      value: `S27 deposit release statement`,
     },
     SIGNEDSECTION27: {
       code: "ss27",
-      value: `Signed section 27`
+      value: `Signed section 27`,
     },
     STATEMENTOFADJUSTMENTSANDSETTLEMENTSTATEMENT: {
       code: "soass",
-      value: `Statement of adjustments & settlement statement`
+      value: `Statement of adjustments & settlement statement`,
     },
     SETTLEMENTCOSTS: {
       code: "stc",
-      value: `Settlement costs`
+      value: `Settlement costs`,
     },
     TAXINVOICE: {
       code: "tiv",
-      value: `Tax invoice`
+      value: `Tax invoice`,
     },
     ACCOUNTSALES: {
       code: "acs",
-      value: `Account sales`
+      value: `Account sales`,
     },
     REGISTEREDPLAN: {
       code: "rpl",
-      value: `Registered plan`
+      value: `Registered plan`,
     },
     CERTIFICATEOFOCCUPANCY: {
       code: "coo",
-      value: `Certificate of occupancy`
-    }
+      value: `Certificate of occupancy`,
+    },
   },
-  GOOGLE_MAP_API: "AIzaSyAqAEvbu2tsOHjZWu2LBe02GLz8fbPS-l4",
-  GOOGLE_TAG_MANAGER: "GTM-KRKMZV8",
+  G_MAP_API: "-l4",
+  G_TAG_MANAGER: "GTM-xxx",
   FB_ID: "247727039681570",
   WEBFORM_TYPES: {
     CL: "client authorisation form",
     SQ: `seller's questionnaire form`,
     BQ: `buyer's questionnaire form`,
-    CD: "costs disclosure form"
-  }
+    CD: "costs disclosure form",
+  },
 };
 
 export default CONSTANTS;

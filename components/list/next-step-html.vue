@@ -30,7 +30,8 @@
                                 <div class="mobile-flex">
                                     <div class="key mobile-only">Actions:</div>
                                     <div class="key" v-if="item.filter === 'contract'">
-                                        <UploadDownloadDocumentComponent v-if="(isUserCustomer || isUserOfficeManager || isUserDirector || isUserRealEstateAgent || isUserAdmin || isUserChiefPracticeManager)" :documentType="item.filter" :propertyObject="propertyStepsObject"></UploadDownloadDocumentComponent><button class="btn btn-se-primary" :disabled="!isActionAvailable(propertyStepsObject, item.filter)" v-else @click="downloadDocument(propertyStepsObject, item.filter)"><i class="fas fa-download"></i>Download PDF</button>
+                                        <UploadDownloadDocumentComponent v-if="(isUserCustomer || isUserOfficeManager || isUserDirector || isUserRealEstateAgent || isUserAdmin || isUserChiefPracticeManager)" :documentType="item.filter" :propertyObject="propertyStepsObject"></UploadDownloadDocumentComponent>
+                                        <button class="btn btn-se-primary" :disabled="!isActionAvailable(propertyStepsObject, item.filter)" v-else @click="downloadDocument(propertyStepsObject, item.filter)"><i class="fas fa-download"></i>Download PDF</button>
                                     </div>
                                     <div class="key" v-else-if="item.filter === 'conveyancer-assigned'">
                                         <AssignReassignConveyancerComponent :propertyObject="propertyStepsObject"></AssignReassignConveyancerComponent>
