@@ -1,0 +1,76 @@
+.btn {
+  max-width: 200px;
+  text-align: left;
+  padding: .575rem .75rem .5rem;
+}
+.width-100 {
+  width: 100%;
+  &.notallowed {
+    cursor: not-allowed;
+  }
+}
+.dropdown-item,
+.status-label,
+.btn {
+  position: relative;
+  width: 100%;
+  font-size: 13px;
+  font-family: 'SE_Gotham-Rounded-Medium', sans-serif !important;
+  i {
+    padding-right: .5rem;
+  }
+  &.danger {
+    color: #ea4435
+  }
+  &.primary {
+    color: #4794fc
+  }
+  &.success {
+    color: #31a750
+  }
+  &.not-available {
+    color: #aeafb0
+  }
+  &.info {
+    color: #aeafb0
+  }
+  &:disabled {
+    color: #d6d6d6 !important;
+    background-color: #f3f3f3 !important;
+    cursor: not-allowed;
+  }
+  &.disabled {
+    color: #d6d6d6;
+    background-color: #f3f3f3;
+    pointer-events: none;
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+  &.btn-se-primary {
+    color: #4794fc;
+    background-color: #edf4ff;
+    &:hover {
+      color: #fff;
+      background-color: #4794fc;
+    }
+    &:disabled {
+      cursor: not-allowed;
+    }
+    .btn-avatar {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      right: 0.75rem;
+      border-radius: 100%;
+    }
+  }
+  &.dropdown-toggle::after {
+    position: absolute;
+    right: 16px;
+    top: 15px;
+    font-size: 20px;
+    margin-left: 0.855em;
+    vertical-align: 0.1em;
+  }
+}
